@@ -1,0 +1,98 @@
+<resources>
+    <style name="Theme.Transparent" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:statusBarColor">@color/colorWhite</item>
+        <item name="android:windowBackground">@color/colorBackground</item>
+    </style>
+
+    <style name="Theme.HIDEit.Transparent" parent="Theme.Transparent">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowBackground">@color/colorTransparent</item>
+        <item name="android:windowEnterAnimation">@android:anim/fade_in</item>
+        <item name="android:windowExitAnimation">@android:anim/fade_out</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+    </style>
+
+    <style name="Theme.HIDEit" parent="Theme.Transparent">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimary</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryDark</item>
+        <item name="colorOnPrimary">@color/colorSecondary</item>
+        <item name="colorSecondary">@color/colorSecondary</item>
+        <item name="colorSecondaryVariant">@color/colorSecondary</item>
+        <item name="colorOnSecondary">@color/colorIcon</item>
+    </style>
+
+    <style name="WaveEffectColor">
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+        <item name="android:theme">@style/ThemeWaveEffectColor</item>
+        <item name="android:background">?attr/selectableItemBackground</item>
+        <item name="android:foreground">?attr/selectableItemBackground</item>
+    </style>
+
+    <style name="ThemeWaveEffectColor">
+        <item name="colorControlHighlight">@color/colorWaveEffectColor</item>
+    </style>
+
+    <style name="WaveEffectWhite">
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+        <item name="android:theme">@style/ThemeWaveEffectWhite</item>
+        <item name="android:background">?attr/selectableItemBackground</item>
+        <item name="android:foreground">?attr/selectableItemBackground</item>
+    </style>
+
+    <style name="ThemeWaveEffectWhite">
+        <item name="colorControlHighlight">@color/colorWaveEffectWhite</item>
+    </style>
+
+    <style name="SelectableItemTheme">
+        <item name="colorControlHighlight">#19000000</item>
+    </style>
+
+    <style name="SelectableItemBackground">
+        <item name="android:theme">@style/SelectableItemTheme</item>
+        <item name="android:background">?attr/selectableItemBackground</item>
+    </style>
+
+    <style name="MaterialAlertDialog_rounded" parent="@style/ThemeOverlay.MaterialComponents.MaterialAlertDialog">
+        <item name="shapeAppearanceOverlay">@style/DialogCorners</item>
+    </style>
+
+    <style name="DialogCorners">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">16dp</item>
+    </style>
+
+    <style name="PatternLockView" />
+
+    <style name="PatternLockView.JDStyle">
+        <item name="plv_regularDotColor">@color/regularColor</item>
+        <item name="plv_selectedCellBackground">#33587bf4</item>
+        <item name="plv_selectedDotColor">@color/selectedColor</item>
+        <item name="plv_errorCellBackground">#33ea4954</item>
+        <item name="plv_errorDotColor">@color/errorColor</item>
+        <item name="plv_regularLineColor">@color/selectedColor</item>
+        <item name="plv_errorLineColor">@color/errorColor</item>
+        <item name="plv_spacing">32dp</item>
+    </style>
+    <style name="PatternLockView.WithIndicator">
+        <item name="plv_regularDotColor">@color/regularColor</item>
+        <item name="plv_selectedCellBackground">@drawable/with_indicator_selected_bg</item>
+        <item name="plv_selectedDotColor">@color/selectedColor</item>
+        <item name="plv_errorCellBackground">@drawable/with_indicator_error_bg</item>
+        <item name="plv_errorDotColor">@color/errorColor</item>
+        <item name="plv_lineStyle">indicator</item>
+        <item name="plv_regularLineColor">@color/selectedColor</item>
+        <item name="plv_errorLineColor">@color/errorColor</item>
+        <item name="plv_spacing">32dp</item>
+    </style>
+</resources>

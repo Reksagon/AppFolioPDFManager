@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#eceff1</color>
+    <color name="colorPrimaryDark">#cfd8dc</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorGrayDark">#474747</color>
+    <color name="colorGray">#8a8a8a</color>
+    <color name="colorGrayLight">#BBBBBB</color>
+    <color name="colorDivider">#E2E2E2</color>
+    <color name="colorDividerLight">#F0F0F0</color>
+    <color name="colorBackground">#fafafa</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorIcon">#ffffff</color>
+    <color name="colorWaveEffectWhite">#80FFFFFF</color>
+    <color name="colorWaveEffectColor">#8037474f</color>
+    <color name="colorBubble">#F0F0F0</color>
+    <color name="colorSelected">#FFF9ED</color>
+
+    <color name="colorTransparent">#00FFFFFF</color>
+    <color name="colorAccent">#ac93a4</color>
+    <color name="colorSecondary">#ac93a4</color>
+
+    <color name="errorColor">#ea4954</color>
+    <color name="regularColor">#d8dbe9</color>
+    <color name="selectedColor">#ac93a4</color>
+</resources>

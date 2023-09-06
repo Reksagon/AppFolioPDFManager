@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorWhite"
+    android:orientation="vertical"
+    android:paddingTop="12dp"
+    android:paddingBottom="4dp">
+
+    <com.ivanandevs.components.ThemeTextView
+        android:id="@+id/alertTitleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginBottom="6dp"
+        android:text="Request Install Packages"
+        android:textColor="@color/colorBlack"
+        android:textSize="19sp" />
+
+    <com.ivanandevs.components.ThemeTextView
+        android:id="@+id/alertMessageTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginBottom="4dp"
+        android:textColor="@color/colorGrayDark"
+        android:text="We need this permission to open the file you selected. According to Google's policy it is a dangerous permission And you should not give this permission to an application. But We agree to execute only your requests and we will not automatically install any application without your permission. Read our policy for more details. If you agree please allow permission for request install packages."
+        android:textSize="15sp" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/alertPolicyBtn"
+        style="@style/WaveEffectWhite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        app:cardBackgroundColor="@color/colorWhite"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="0dp">
+
+        <com.ivanandevs.components.ThemeTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="20dp"
+            android:paddingVertical="14dp"
+            android:text="Open Privacy Policy"
+            android:textColor="@color/selectedColor"
+            android:textSize="15sp" />
+    </androidx.cardview.widget.CardView>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:gravity="end"
+        android:orientation="horizontal">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/alertOkBtn"
+            style="@style/WaveEffectWhite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            app:cardBackgroundColor="@color/colorWhite"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="0dp">
+
+            <com.ivanandevs.components.ThemeTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingHorizontal="20dp"
+                android:paddingVertical="14dp"
+                android:text="Agree"
+                android:textColor="@color/colorBlack"
+                android:textSize="15sp" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/alertCancelBtn"
+            style="@style/WaveEffectWhite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            app:cardBackgroundColor="@color/colorWhite"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="0dp">
+
+            <com.ivanandevs.components.ThemeTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingHorizontal="20dp"
+                android:paddingVertical="14dp"
+                android:text="Cancel"
+                android:textColor="@color/colorGray"
+                android:textSize="15sp" />
+        </androidx.cardview.widget.CardView>
+    </FrameLayout>
+</LinearLayout>

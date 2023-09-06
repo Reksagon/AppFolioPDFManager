@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">FM</string>
+    <string name="KeyguardTitle">Biometric login for File Navigator Manager</string>
+    <string name="KeyguardSubtitle">Log in using your biometric credential</string>
+    <string name="SizeB">%sB</string>
+    <string name="SizeKB">%sKB</string>
+    <string name="SizeMB">%sMB</string>
+    <string name="SizeGB">%sGB</string>
+    <string name="AppManager">App Manager</string>
+    <string name="uninstall">Uninstall</string>
+</resources>

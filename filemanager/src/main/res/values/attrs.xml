@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ThemeTextView">
+        <attr name="fontType" format="enum">
+            <enum name="Light" value="0" />
+            <enum name="Normal" value="1" />
+            <enum name="Bold" value="2" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="PatternLockView">
+        <attr format="color|reference" name="plv_regularCellBackground"/>
+        <attr format="color" name="plv_regularDotColor"/>
+        <attr format="float" name="plv_regularDotRadiusRatio"/>
+        <attr format="color|reference" name="plv_selectedCellBackground"/>
+        <attr format="color" name="plv_selectedDotColor"/>
+        <attr format="float" name="plv_selectedDotRadiusRatio"/>
+        <attr format="color|reference" name="plv_errorCellBackground"/>
+        <attr format="color" name="plv_errorDotColor"/>
+        <attr format="float" name="plv_errorDotRadiusRatio"/>
+        <attr format="enum" name="plv_lineStyle">
+            <enum name="common" value="1"/>
+            <enum name="indicator" value="2"/>
+        </attr>
+        <attr format="dimension" name="plv_lineWidth"/>
+        <attr format="color" name="plv_regularLineColor"/>
+        <attr format="color" name="plv_errorLineColor"/>
+        <attr format="dimension" name="plv_spacing"/>
+        <attr format="integer" name="plv_rowCount"/>
+        <attr format="integer" name="plv_columnCount"/>
+        <attr format="integer" name="plv_errorDuration"/>
+        <attr format="float" name="plv_hitAreaPaddingRatio"/>
+        <attr format="float" name="plv_indicatorSizeRatio"/>
+    </declare-styleable>
+</resources>

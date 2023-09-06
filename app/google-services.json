@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "555450101438",
+    "project_id": "appfolio-pdf",
+    "storage_bucket": "appfolio-pdf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:555450101438:android:83f199538c3334589f78ef",
+        "android_client_info": {
+          "package_name": "com.ivanandevs.appfoliopdf"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "555450101438-vid76tcij47rlh76cqc0vh57hmo69aek.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAHIbK6HLzaxOCM_zkmw_44G51SfpH4rEQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "555450101438-vid76tcij47rlh76cqc0vh57hmo69aek.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

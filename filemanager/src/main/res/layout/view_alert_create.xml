@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorWhite"
+    android:orientation="vertical"
+    android:paddingTop="12dp"
+    android:paddingBottom="4dp">
+
+    <com.ivanandevs.components.ThemeTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginBottom="6dp"
+        android:text="New Folder"
+        android:textColor="@color/colorGrayDark"
+        android:textSize="19sp" />
+
+    <com.ivanandevs.components.ThemeEditText
+        android:id="@+id/alertEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginBottom="4dp"
+        android:textColor="@color/colorGrayDark"
+        android:textSize="17sp" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:gravity="end"
+        android:orientation="horizontal">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/alertCancelBtn"
+            style="@style/WaveEffectWhite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginEnd="8dp"
+            app:cardBackgroundColor="@color/colorWhite"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="0dp">
+
+            <com.ivanandevs.components.ThemeTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingHorizontal="20dp"
+                android:paddingVertical="14dp"
+                android:text="Cancel"
+                android:textColor="@color/colorGray"
+                android:textSize="15sp" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/alertOkBtn"
+            style="@style/WaveEffectWhite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            app:cardBackgroundColor="@color/colorWhite"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="0dp">
+
+            <com.ivanandevs.components.ThemeTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingHorizontal="20dp"
+                android:paddingVertical="14dp"
+                android:text="Create"
+                android:textColor="@color/colorBlack"
+                android:textSize="15sp" />
+        </androidx.cardview.widget.CardView>
+    </FrameLayout>
+</LinearLayout>
